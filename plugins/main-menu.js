@@ -34,7 +34,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
     const platform = getPlatform()
 
     let str = `
-╭━━━⊰ *GURU-AI* ⊱━━━╮
+╭━━━⊰ *KAYBOY-MD* ⊱━━━╮
 ┃
 ┃ 👋 Hello, ${taguser}!
 ┃ ${greeting}
@@ -45,12 +45,12 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 
 ╭━━━⊰ *TODAY* ⊱━━━╮
 ┃ 📅 *Date:* ${date}
-┃ ⏰ *Time:* ${moment().tz('Asia/Kolkata').format('HH:mm:ss')}
+┃ ⏰ *Time:* ${moment().tz('ZIM/HARARE').format('HH:mm:ss')}
 ╰━━━━━━━━━━━━━━━╯
 
 ╭━━━⊰ *BOT INFO* ⊱━━━╮
-┃ 🤖 *Bot Name:* ${global.botname || 'GURU-AI'}
-┃ 👑 *Owner:* ${global.author || 'Guru'}
+┃ 🤖 *Bot Name:* ${global.botname || 'KAYBOY-MD'}
+┃ 👑 *Owner:* ${global.author || 'Kayboy'}
 ┃ 🖥️ *Platform:* ${platform}
 ┃ ⌨️ *Prefix:* ${usedPrefix}
 ┃ ⏱️ *Uptime:* ${uptime}
@@ -76,7 +76,7 @@ ${readMore}
     await conn.sendButton(
       m.chat, 
       str,
-      '© GURU-AI | 2025', 
+      '© KAYBOY-MD| 2025', 
       logo, 
       buttons, 
       null, 
